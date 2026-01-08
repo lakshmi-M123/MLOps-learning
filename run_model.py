@@ -20,7 +20,7 @@ def load_model():
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--input", required=True,
-                        help="Feature list as JSON string. Example: \"[5.1,3.5,1.4,0.2]\"")
+                        help="Feature list as JSON strings!!. Example: \"[5.1,3.5,1.4,0.2]\"")
     args = parser.parse_args()
 
     # Parse input
